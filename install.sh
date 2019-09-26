@@ -5,6 +5,7 @@
 exe apt-get update '&&' apt-get -y install libncurses5
 echo
 exe dpkg -i libevent-2.0.22_2.0.22-1_amd64.deb tmux_2.0-1_amd64.deb
+exe ldconfig
 echo
 
 exe echo '>>' /etc/apt/preferences
